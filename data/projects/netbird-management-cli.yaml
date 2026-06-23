@@ -1,8 +1,0 @@
-name: netbird-management-cli
-description: >-
-  An unofficial Go CLI to manage NetBird peers, groups, policies, and DNS from the terminal
-  via the REST API.
-author: TechHutTV
-category: Interfaces
-url: https://github.com/TechHutTV/netbird-management-cli
-badge: endorsed
