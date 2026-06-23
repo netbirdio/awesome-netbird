@@ -1,0 +1,7 @@
+name: netbird-traefik
+description: >-
+  Run NetBird behind a Traefik reverse proxy using Traefik labels, without changing your
+  existing stack.
+author: yblis
+category: Extensions
+url: https://github.com/yblis/netbird-traefik

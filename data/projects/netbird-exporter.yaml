@@ -1,0 +1,7 @@
+name: netbird-exporter
+description: >-
+  A Prometheus exporter that surfaces NetBird peer connection status, latency, and traffic
+  metrics for your dashboards.
+author: gocloudio
+category: Interfaces
+url: https://github.com/gocloudio/netbird-exporter

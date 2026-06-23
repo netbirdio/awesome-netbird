@@ -1,0 +1,7 @@
+name: netbird-python-client
+description: >-
+  An unofficial Python client library for the NetBird API, covering 30+ resources for managing
+  your network as code.
+author: drtinkerer
+category: Tools
+url: https://github.com/drtinkerer/netbird-python-client

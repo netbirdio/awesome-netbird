@@ -1,0 +1,8 @@
+name: NetDesk
+description: >-
+  A Chrome extension that adds one-click RustDesk remote access (desktop, terminal, file
+  transfer) right inside the NetBird dashboard.
+author: yblis
+category: Extensions
+url: https://github.com/yblis/NetDesk
+badge: endorsed

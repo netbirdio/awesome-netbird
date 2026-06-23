@@ -1,0 +1,8 @@
+name: JetBird
+description: >-
+  An unofficial, privacy-focused native Android client for NetBird, adding split tunneling,
+  per-app exclusion, and Rosenpass support. Available on F-Droid.
+author: bg443
+category: Apps
+url: https://codeberg.org/bg443/JetBird
+badge: endorsed

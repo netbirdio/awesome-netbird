@@ -1,0 +1,7 @@
+name: netbird-connect
+description: >-
+  A GitHub Action that joins your CI/CD runners to a NetBird network so workflows can reach
+  private resources securely.
+author: Alemiz112
+category: Extensions
+url: https://github.com/Alemiz112/netbird-connect

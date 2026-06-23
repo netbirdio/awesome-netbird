@@ -1,0 +1,7 @@
+name: nanoNetBird
+description: >-
+  Brings the NetBird client to nanoKVM out-of-band management devices, with a single-command
+  install that auto-updates.
+author: bc547
+category: Apps
+url: https://github.com/bc547/nanoNetBird

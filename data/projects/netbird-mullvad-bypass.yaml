@@ -1,0 +1,7 @@
+name: netbird-mullvad-bypass
+description: >-
+  An nftables-based bypass that lets NetBird and Mullvad VPN coexist on Linux, with packages
+  for Arch, Fedora/RHEL, and Debian/Ubuntu.
+author: d10n
+category: Tools
+url: https://github.com/d10n/netbird-mullvad-bypass
