@@ -38,11 +38,18 @@ jobs:
       - name: Build release artifact
         run: python3 scripts/build.py
 
-      - name: Create release and upload asset
+      # Idempotent: if the release for this tag already exists (re-run, moved
+      # tag), update its asset instead of failing on create.
+      - name: Create or update release and asset
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create "${GITHUB_REF_NAME}" \
-            dist/projects.json \
-            --title "${GITHUB_REF_NAME}" \
-            --generate-notes
+          if gh release view "${GITHUB_REF_NAME}" >/dev/null 2>&1; then
+            echo "Release ${GITHUB_REF_NAME} exists; updating asset."
+            gh release upload "${GITHUB_REF_NAME}" dist/projects.json --clobber
+          else
+            gh release create "${GITHUB_REF_NAME}" \
+              dist/projects.json \
+              --title "${GITHUB_REF_NAME}" \
+              --generate-notes
+          fi

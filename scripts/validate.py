@@ -19,6 +19,7 @@ import glob
 import os
 import re
 import sys
+from urllib.parse import urlsplit
 
 try:
     import yaml
@@ -33,6 +34,25 @@ except ImportError:
 
 SCHEMA_PATH = "schema/project.schema.json"
 SLUG_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
+
+
+def url_error(url):
+    """Return a problem string if url is not a usable https URL, else None.
+
+    The schema declares `format: uri`, but jsonschema only enforces it when the
+    optional rfc3987 package is installed — so we validate explicitly here to
+    guarantee the check runs everywhere.
+    """
+    if not isinstance(url, str):
+        return "must be a string"
+    if any(ch.isspace() for ch in url):
+        return "must not contain whitespace"
+    parts = urlsplit(url)
+    if parts.scheme != "https":
+        return "must use https://"
+    if not parts.hostname or "." not in parts.hostname:
+        return "must include a valid host"
+    return None
 
 
 def main():
@@ -73,6 +93,9 @@ def main():
 
         url = data.get("url")
         if url:
+            msg = url_error(url)
+            if msg:
+                errors.append(f"{path}: url: {msg}")
             if url in urls:
                 errors.append(f"{path}: duplicate url, also in {urls[url]}")
             else:

@@ -34,7 +34,7 @@
       "type": "string",
       "description": "Canonical link to the project (repository or homepage).",
       "format": "uri",
-      "pattern": "^https://"
+      "pattern": "^https://[^\\s/]+\\.[^\\s/]+(/\\S*)?$"
     },
     "badge": {
       "type": "string",
