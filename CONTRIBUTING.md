@@ -13,9 +13,9 @@ project, open a pull request that adds a single new file.
 3. Fill in the fields and open a PR. CI validates your file against
    [`schema/project.schema.json`](schema/project.schema.json).
 
-That is all you need to do. **`README.md` is generated** from the data and is
-updated automatically after your PR merges — do not edit it by hand. You do not
-need to run any scripts or build anything.
+That is all you need to do. **`README.md` and `dist/projects.json` are generated**
+from the data and are updated automatically after your PR merges — do not edit
+them by hand. You do not need to run any scripts or build anything.
 
 ```yaml
 name: My NetBird Project

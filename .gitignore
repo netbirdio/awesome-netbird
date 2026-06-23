@@ -1,4 +1,2 @@
-# Build artifact — produced by scripts/build.py and published as a release
-# asset by release.yml. Not tracked in git; the site consumes it from a release.
-/dist/
+# Local holding area for entries that are not currently listed. Not tracked.
 /stash/

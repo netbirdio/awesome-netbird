@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "count": 9,
+  "projects": [
+    {
+      "id": "home-assistant-addon",
+      "name": "Home Assistant Add-on",
+      "description": "The official NetBird add-on for Home Assistant, connecting your smart home to your private network in a few clicks with no port forwarding.",
+      "author": "NetBird",
+      "category": "Apps",
+      "url": "https://github.com/netbirdio/addon-netbird",
+      "badge": "official"
+    },
+    {
+      "id": "netbird-for-openwrt",
+      "name": "NetBird for OpenWrt",
+      "description": "The official OpenWrt package that runs NetBird on your router for secure mesh networking, with setup-key login and init scripts.",
+      "author": "NetBird",
+      "category": "Extensions",
+      "url": "https://github.com/netbirdio/openwrt-netbird",
+      "badge": "official"
+    },
+    {
+      "id": "netbird-for-pfsense",
+      "name": "NetBird for pfSense",
+      "description": "The official pfSense package that adds NetBird to your firewall, managed from the pfSense web UI under the VPN menu.",
+      "author": "NetBird",
+      "category": "Extensions",
+      "url": "https://github.com/netbirdio/pfsense-netbird",
+      "badge": "official"
+    },
+    {
+      "id": "netbird-for-unraid",
+      "name": "NetBird for Unraid",
+      "description": "The official NetBird plugin for Unraid, making your Unraid server a native peer on your NetBird network with no extra container or hop.",
+      "author": "NetBird",
+      "category": "Extensions",
+      "url": "https://github.com/netbirdio/netbird-unraid",
+      "badge": "official"
+    },
+    {
+      "id": "networkmanager-plugin",
+      "name": "NetworkManager Plugin",
+      "description": "The official NetworkManager VPN plugin that lets you manage NetBird connections from your Linux desktop's standard VPN controls.",
+      "author": "NetBird",
+      "category": "Extensions",
+      "url": "https://github.com/netbirdio/network-manager-vpn-plugin",
+      "badge": "official"
+    },
+    {
+      "id": "ansible-collection",
+      "name": "Ansible Collection",
+      "description": "The official Ansible collection for managing self-hosted NetBird infrastructure (users, peers, policies, routes, and DNS) via the REST API.",
+      "author": "NetBird",
+      "category": "Tools",
+      "url": "https://github.com/netbirdio/ansible-netbird",
+      "badge": "official"
+    },
+    {
+      "id": "crossplane-provider",
+      "name": "Crossplane Provider",
+      "description": "The official Crossplane provider for managing NetBird resources from Kubernetes-native infrastructure pipelines.",
+      "author": "NetBird",
+      "category": "Tools",
+      "url": "https://github.com/netbirdio/netbird-crossplane-provider",
+      "badge": "official"
+    },
+    {
+      "id": "kubernetes-operator",
+      "name": "Kubernetes Operator",
+      "description": "The official operator that provisions NetBird access for Kubernetes workloads declaratively, managing peers, routes, and groups as custom resources.",
+      "author": "NetBird",
+      "category": "Tools",
+      "url": "https://github.com/netbirdio/kubernetes-operator",
+      "badge": "official"
+    },
+    {
+      "id": "terraform-provider",
+      "name": "Terraform Provider",
+      "description": "The official Terraform provider for managing your NetBird account and its resources as infrastructure as code.",
+      "author": "NetBird",
+      "category": "Tools",
+      "url": "https://github.com/netbirdio/terraform-provider-netbird",
+      "badge": "official"
+    }
+  ]
+}
