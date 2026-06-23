@@ -1,0 +1,8 @@
+name: Kubernetes Operator
+description: >-
+  The official operator that provisions NetBird access for Kubernetes workloads declaratively,
+  managing peers, routes, and groups as custom resources.
+author: NetBird
+category: Tools
+url: https://github.com/netbirdio/kubernetes-operator
+badge: official

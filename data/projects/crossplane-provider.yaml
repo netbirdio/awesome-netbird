@@ -1,0 +1,8 @@
+name: Crossplane Provider
+description: >-
+  The official Crossplane provider for managing NetBird resources from Kubernetes-native
+  infrastructure pipelines.
+author: NetBird
+category: Tools
+url: https://github.com/netbirdio/netbird-crossplane-provider
+badge: official

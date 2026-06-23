@@ -1,0 +1,8 @@
+name: Terraform Provider
+description: >-
+  The official Terraform provider for managing your NetBird account and its resources as
+  infrastructure as code.
+author: NetBird
+category: Tools
+url: https://github.com/netbirdio/terraform-provider-netbird
+badge: official

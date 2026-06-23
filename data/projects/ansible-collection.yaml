@@ -1,0 +1,8 @@
+name: Ansible Collection
+description: >-
+  The official Ansible collection for managing self-hosted NetBird infrastructure (users,
+  peers, policies, routes, and DNS) via the REST API.
+author: NetBird
+category: Tools
+url: https://github.com/netbirdio/ansible-netbird
+badge: official

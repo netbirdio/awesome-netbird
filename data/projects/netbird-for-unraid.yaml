@@ -1,0 +1,8 @@
+name: NetBird for Unraid
+description: >-
+  The official NetBird plugin for Unraid, making your Unraid server a native peer on your
+  NetBird network with no extra container or hop.
+author: NetBird
+category: Extensions
+url: https://github.com/netbirdio/netbird-unraid
+badge: official

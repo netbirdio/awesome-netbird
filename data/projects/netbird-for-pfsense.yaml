@@ -1,0 +1,8 @@
+name: NetBird for pfSense
+description: >-
+  The official pfSense package that adds NetBird to your firewall, managed from the pfSense
+  web UI under the VPN menu.
+author: NetBird
+category: Extensions
+url: https://github.com/netbirdio/pfsense-netbird
+badge: official

@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/netbirdio/awesome-netbird/schema/project.schema.json",
+  "title": "NetBird community project",
+  "description": "One file per project under data/projects/<slug>.yaml. The filename slug is the stable id.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["name", "description", "author", "category", "url"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Display name of the project.",
+      "minLength": 1,
+      "maxLength": 80
+    },
+    "description": {
+      "type": "string",
+      "description": "One or two sentences describing what the project does. No marketing fluff.",
+      "minLength": 20,
+      "maxLength": 320
+    },
+    "author": {
+      "type": "string",
+      "description": "Person or organization that maintains the project.",
+      "minLength": 1,
+      "maxLength": 80
+    },
+    "category": {
+      "type": "string",
+      "description": "Apps = run/deploy NetBird somewhere; Extensions = plug into another tool; Interfaces = ways to view/drive NetBird; Tools = automate/manage via code.",
+      "enum": ["Apps", "Extensions", "Interfaces", "Tools"]
+    },
+    "url": {
+      "type": "string",
+      "description": "Canonical link to the project (repository or homepage).",
+      "format": "uri",
+      "pattern": "^https://"
+    },
+    "badge": {
+      "type": "string",
+      "description": "official = built/maintained by the NetBird team. endorsed = a community project the NetBird team vouches for. Omit for a standard community listing.",
+      "enum": ["official", "endorsed"]
+    }
+  }
+}

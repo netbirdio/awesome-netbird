@@ -1,0 +1,8 @@
+name: Home Assistant Add-on
+description: >-
+  The official NetBird add-on for Home Assistant, connecting your smart home to your private
+  network in a few clicks with no port forwarding.
+author: NetBird
+category: Apps
+url: https://github.com/netbirdio/addon-netbird
+badge: official

@@ -1,0 +1,8 @@
+name: NetworkManager Plugin
+description: >-
+  The official NetworkManager VPN plugin that lets you manage NetBird connections from your
+  Linux desktop's standard VPN controls.
+author: NetBird
+category: Extensions
+url: https://github.com/netbirdio/network-manager-vpn-plugin
+badge: official

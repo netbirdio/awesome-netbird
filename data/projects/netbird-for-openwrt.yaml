@@ -1,0 +1,8 @@
+name: NetBird for OpenWrt
+description: >-
+  The official OpenWrt package that runs NetBird on your router for secure mesh networking,
+  with setup-key login and init scripts.
+author: NetBird
+category: Extensions
+url: https://github.com/netbirdio/openwrt-netbird
+badge: official
