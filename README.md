@@ -4,13 +4,13 @@
 
 This list is the source of truth for the community projects directory on [netbird.io](https://netbird.io). Each entry lives in its own file under [`data/projects/`](data/projects/); the site reads from this repository, so adding a project here adds it to the website. To submit one, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
-**9 projects** · 🟢 9 official · ⭐ 0 endorsed · 0 community
+**10 projects** · 🟢 9 official · ⭐ 1 endorsed · 0 community
 
 ## Contents
 
 - [Apps](#apps) (1)
 - [Extensions](#extensions) (4)
-- [Interfaces](#interfaces) (0)
+- [Interfaces](#interfaces) (1)
 - [Tools](#tools) (4)
 
 **Legend:** `🟢 Official` built and maintained by the NetBird team · `⭐ Endorsed` a community project the NetBird team vouches for.
@@ -34,6 +34,7 @@ _Plug NetBird into another tool or platform._
 
 _View or drive NetBird — CLIs, dashboards, and exporters._
 
+- **[netbird-management-cli](https://github.com/TechHutTV/netbird-management-cli)** `⭐ Endorsed` — An unofficial Go CLI to manage NetBird peers, groups, policies, and DNS from the terminal via the REST API. _by TechHutTV_
 
 ## Tools
 

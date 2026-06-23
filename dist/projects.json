@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "count": 9,
+  "count": 10,
   "projects": [
     {
       "id": "home-assistant-addon",
@@ -46,6 +46,15 @@
       "category": "Extensions",
       "url": "https://github.com/netbirdio/network-manager-vpn-plugin",
       "badge": "official"
+    },
+    {
+      "id": "netbird-management-cli",
+      "name": "netbird-management-cli",
+      "description": "An unofficial Go CLI to manage NetBird peers, groups, policies, and DNS from the terminal via the REST API.",
+      "author": "TechHutTV",
+      "category": "Interfaces",
+      "url": "https://github.com/TechHutTV/netbird-management-cli",
+      "badge": "endorsed"
     },
     {
       "id": "ansible-collection",
