@@ -4,12 +4,12 @@
 
 This repository is the source of truth for the community directory on [netbird.io](https://netbird.io). Each entry lives in its own file under [`data/`](data/); the site reads from this repository, so adding an entry here adds it to the website. To submit one, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
-**10 projects** · **6 pieces of content**
+**10 projects** · **12 pieces of content**
 
 ## Contents
 
 - [Projects](#projects) (10)
-- [Content](#content) (6)
+- [Content](#content) (12)
 
 ## Projects
 
@@ -53,12 +53,18 @@ _Community videos, articles, and posts about NetBird. ⭐ marks featured items._
 
 - **[NetBird Setup Guide (New & Simplified)](https://www.youtube.com/watch?v=1BQdldvOC7w)** ⭐ — _by Christian Lempa_
 - **[NetBird VPN & Pi-Hole DNS Setup](https://www.youtube.com/watch?v=4tuK8A4_gV4)** ⭐ — _by Jason's Lab_
+- **[NAS als Mini-Server: n8n & KI-Agenten zu Hause laufen lassen (Terramaster F4-425 Pro)](https://www.youtube.com/watch?v=C26MtK-GVtc)** — _by Philip Thomas_
 - **[NetBird Reverse Proxy: Better than Cloudflare Tunnels?](https://www.youtube.com/watch?v=-yfE3Lb3hTI)** — _by ServersatHome_
+- **[NetBird vs Tailscale: The One I’d Trust With My #homelab](https://www.youtube.com/watch?v=jnGsStleHd0)** — _by 45HomeLab_
 - **[NetBird: The Easy-to-Use Open-Source WireGuard Overlay VPN You Can Self-Host](https://www.youtube.com/watch?v=Kwrff6h0rEw)** — _by Lawrence Systems_
+- **[REAL Self-Hosted Remote Access for YOUR Home Server](https://www.youtube.com/watch?v=z0HPuNFkmt4)** — _by TechHut_
+- **[The EASIEST Unattended Remote Desktop for GNOME/Wayland.](https://www.youtube.com/watch?v=7ikzAnjk6YM)** — _by Cameron Knauff_
+- **[This Underrated Tool Replaced 3 Homelab Services (and it's open source!)](https://www.youtube.com/watch?v=3wJ0IQ3rHjA)** — _by DevOps Toolbox_
 
 ### Articles
 
 - **[Deploying the NetBird Reverse Proxy on Kubernetes](https://konst.fish/blog/netbird-reverse-proxy-on-kubernetes)** ⭐ — _by David Fischer_
+- **[I was exposing my home server every time I opened a router port — NetBird fixed it](https://www.makeuseof.com/was-exposing-home-server-every-time-opened-router-port-netbird-fixed/)** — _by MakeUseOf_
 - **[NetBird VPN homelab: ho sostituito Tailscale in 12 minuti e 3 subnet](https://homelabz.cc/blog/netbird-vpn-homelab-tailscale-migrazione)** — _by Antonio Distefano_
 
 ## Contributing

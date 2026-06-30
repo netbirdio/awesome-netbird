@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "count": 6,
+  "count": 12,
   "content": [
     {
       "id": "jasons-lab-netbird-pihole-dns",
@@ -33,6 +33,36 @@
       "featured": true
     },
     {
+      "id": "philip-thomas-nas-mini-server-n8n",
+      "type": "video",
+      "title": "NAS als Mini-Server: n8n & KI-Agenten zu Hause laufen lassen (Terramaster F4-425 Pro)",
+      "source": "Philip Thomas",
+      "url": "https://www.youtube.com/watch?v=C26MtK-GVtc",
+      "thumbnail": "https://img.youtube.com/vi/C26MtK-GVtc/maxresdefault.jpg",
+      "publish_date": "2026-06-27",
+      "featured": false
+    },
+    {
+      "id": "devops-toolbox-underrated-tool-homelab",
+      "type": "video",
+      "title": "This Underrated Tool Replaced 3 Homelab Services (and it's open source!)",
+      "source": "DevOps Toolbox",
+      "url": "https://www.youtube.com/watch?v=3wJ0IQ3rHjA",
+      "thumbnail": "https://img.youtube.com/vi/3wJ0IQ3rHjA/maxresdefault.jpg",
+      "publish_date": "2026-06-26",
+      "featured": false
+    },
+    {
+      "id": "cameron-knauff-unattended-remote-desktop-gnome-wayland",
+      "type": "video",
+      "title": "The EASIEST Unattended Remote Desktop for GNOME/Wayland.",
+      "source": "Cameron Knauff",
+      "url": "https://www.youtube.com/watch?v=7ikzAnjk6YM",
+      "thumbnail": "https://img.youtube.com/vi/7ikzAnjk6YM/maxresdefault.jpg",
+      "publish_date": "2026-06-19",
+      "featured": false
+    },
+    {
       "id": "homelabz-netbird-tailscale-migration",
       "type": "article",
       "title": "NetBird VPN homelab: ho sostituito Tailscale in 12 minuti e 3 subnet",
@@ -43,6 +73,25 @@
       "featured": false
     },
     {
+      "id": "makeuseof-netbird-home-server-router-port",
+      "type": "article",
+      "title": "I was exposing my home server every time I opened a router port — NetBird fixed it",
+      "source": "MakeUseOf",
+      "url": "https://www.makeuseof.com/was-exposing-home-server-every-time-opened-router-port-netbird-fixed/",
+      "publish_date": "2026-03-21",
+      "featured": false
+    },
+    {
+      "id": "techhut-self-hosted-remote-access-home-server",
+      "type": "video",
+      "title": "REAL Self-Hosted Remote Access for YOUR Home Server",
+      "source": "TechHut",
+      "url": "https://www.youtube.com/watch?v=z0HPuNFkmt4",
+      "thumbnail": "https://img.youtube.com/vi/z0HPuNFkmt4/maxresdefault.jpg",
+      "publish_date": "2026-03-19",
+      "featured": false
+    },
+    {
       "id": "serversathome-netbird-reverse-proxy",
       "type": "video",
       "title": "NetBird Reverse Proxy: Better than Cloudflare Tunnels?",
@@ -50,6 +99,16 @@
       "url": "https://www.youtube.com/watch?v=-yfE3Lb3hTI",
       "thumbnail": "https://img.youtube.com/vi/-yfE3Lb3hTI/maxresdefault.jpg",
       "publish_date": "2026-03-14",
+      "featured": false
+    },
+    {
+      "id": "45homelab-netbird-vs-tailscale",
+      "type": "video",
+      "title": "NetBird vs Tailscale: The One I’d Trust With My #homelab",
+      "source": "45HomeLab",
+      "url": "https://www.youtube.com/watch?v=jnGsStleHd0",
+      "thumbnail": "https://img.youtube.com/vi/jnGsStleHd0/maxresdefault.jpg",
+      "publish_date": "2026-01-08",
       "featured": false
     },
     {
