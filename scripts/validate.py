@@ -5,9 +5,10 @@ Checks, per file:
   - filename is a lowercase, hyphenated slug (the stable id)
   - parses as YAML
   - conforms to the collection's JSON schema
+  - any publish_date is a real calendar date (not just YYYY-MM-DD shaped)
 
 And across the files in each collection:
-  - no duplicate urls (projects, content)
+  - no duplicate urls (projects, content), compared after light normalization
   - no duplicate display name / title
 
 Exits non-zero with a list of problems if anything fails. Run from the repo root:
@@ -88,6 +89,24 @@ def url_error(url):
     return None
 
 
+def canonical_url(url):
+    """Return a normalized key for duplicate detection — NOT a rewritten url.
+
+    Lowercases the host and drops a leading 'www.' and a trailing slash, so
+    https://Example.com/foo/ and https://example.com/foo collapse to one key.
+    The query is kept (it can be significant, e.g. a youtube watch?v=ID). The
+    youtube watch-vs-youtu.be forms are intentionally left distinct for now.
+    """
+    parts = urlsplit(url)
+    host = (parts.hostname or "").lower()
+    if host.startswith("www."):
+        host = host[4:]
+    key = host + parts.path.rstrip("/")
+    if parts.query:
+        key += "?" + parts.query
+    return key
+
+
 def validate_collection(cfg, errors):
     name = cfg["name"]
     if not os.path.isdir(f"data/{name}"):
@@ -113,8 +132,11 @@ def validate_collection(cfg, errors):
         try:
             with open(path) as fh:
                 data = yaml.safe_load(fh)
-        except yaml.YAMLError as exc:
-            errors.append(f"{path}: invalid YAML: {exc}")
+        except (yaml.YAMLError, ValueError) as exc:
+            # ValueError covers an unquoted out-of-range date (e.g. 2026-13-45),
+            # which PyYAML rejects while constructing the date object — that is
+            # not a YAMLError, so without this it would crash the validator.
+            errors.append(f"{path}: could not parse YAML: {exc}")
             continue
 
         if not isinstance(data, dict):
@@ -127,16 +149,28 @@ def validate_collection(cfg, errors):
             loc = ".".join(str(p) for p in err.path) or "(root)"
             errors.append(f"{path}: {loc}: {err.message}")
 
+        # The schema only enforces the YYYY-MM-DD shape; confirm it is a real
+        # calendar date so e.g. 2026-99-99 (which matches the pattern) is caught.
+        publish_date = data.get("publish_date")
+        if isinstance(publish_date, str):
+            try:
+                datetime.date.fromisoformat(publish_date)
+            except ValueError:
+                errors.append(
+                    f"{path}: publish_date: '{publish_date}' is not a real calendar date"
+                )
+
         url = data.get("url")
         if url:
             msg = url_error(url)
             if msg:
                 errors.append(f"{path}: url: {msg}")
             if cfg["unique_url"]:
-                if url in urls:
-                    errors.append(f"{path}: duplicate url, also in {urls[url]}")
+                key = canonical_url(url)
+                if key in urls:
+                    errors.append(f"{path}: duplicate url, also in {urls[key]}")
                 else:
-                    urls[url] = path
+                    urls[key] = path
 
         field = cfg["unique_field"]
         value = data.get(field)

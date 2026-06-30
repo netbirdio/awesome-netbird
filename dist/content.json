@@ -23,26 +23,6 @@
       "featured": true
     },
     {
-      "id": "homelabz-netbird-tailscale-migration",
-      "type": "article",
-      "title": "NetBird VPN homelab: ho sostituito Tailscale in 12 minuti e 3 subnet",
-      "source": "Antonio Distefano",
-      "url": "https://homelabz.cc/blog/netbird-vpn-homelab-tailscale-migrazione",
-      "thumbnail": "https://raw.githubusercontent.com/netbirdio/awesome-netbird/main/data/content/thumbnails/homelabz-netbird-tailscale-migration.png",
-      "publish_date": "2026-03-30",
-      "featured": true
-    },
-    {
-      "id": "serversathome-netbird-reverse-proxy",
-      "type": "video",
-      "title": "NetBird Reverse Proxy: Better than Cloudflare Tunnels?",
-      "source": "ServersatHome",
-      "url": "https://www.youtube.com/watch?v=-yfE3Lb3hTI",
-      "thumbnail": "https://img.youtube.com/vi/-yfE3Lb3hTI/maxresdefault.jpg",
-      "publish_date": "2026-03-14",
-      "featured": true
-    },
-    {
       "id": "konstfish-netbird-reverse-proxy-kubernetes",
       "type": "article",
       "title": "Deploying the NetBird Reverse Proxy on Kubernetes",
@@ -53,6 +33,26 @@
       "featured": true
     },
     {
+      "id": "homelabz-netbird-tailscale-migration",
+      "type": "article",
+      "title": "NetBird VPN homelab: ho sostituito Tailscale in 12 minuti e 3 subnet",
+      "source": "Antonio Distefano",
+      "url": "https://homelabz.cc/blog/netbird-vpn-homelab-tailscale-migrazione",
+      "thumbnail": "https://raw.githubusercontent.com/netbirdio/awesome-netbird/main/data/content/thumbnails/homelabz-netbird-tailscale-migration.png",
+      "publish_date": "2026-03-30",
+      "featured": false
+    },
+    {
+      "id": "serversathome-netbird-reverse-proxy",
+      "type": "video",
+      "title": "NetBird Reverse Proxy: Better than Cloudflare Tunnels?",
+      "source": "ServersatHome",
+      "url": "https://www.youtube.com/watch?v=-yfE3Lb3hTI",
+      "thumbnail": "https://img.youtube.com/vi/-yfE3Lb3hTI/maxresdefault.jpg",
+      "publish_date": "2026-03-14",
+      "featured": false
+    },
+    {
       "id": "lawrence-systems-netbird-overlay-vpn",
       "type": "video",
       "title": "NetBird: The Easy-to-Use Open-Source WireGuard Overlay VPN You Can Self-Host",
@@ -60,7 +60,7 @@
       "url": "https://www.youtube.com/watch?v=Kwrff6h0rEw",
       "thumbnail": "https://img.youtube.com/vi/Kwrff6h0rEw/maxresdefault.jpg",
       "publish_date": "2024-05-03",
-      "featured": true
+      "featured": false
     }
   ]
 }

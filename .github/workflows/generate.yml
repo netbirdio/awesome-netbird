@@ -1,7 +1,7 @@
 name: Generate
 
-# Regenerates the build outputs (README.md and dist/projects.json) from the
-# data in data/projects/ and commits them back to main. main is unprotected, so
+# Regenerates the build outputs (README.md and dist/*.json) from the data in
+# data/ and commits them back to main. main is unprotected, so
 # the default GITHUB_TOKEN (contents: write) can push directly — no PR creation,
 # so this does not depend on the org "Allow Actions to create pull requests"
 # setting. Contributors only ever edit YAML.
@@ -51,5 +51,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md dist/
           # [skip ci] stops this commit from retriggering this workflow.
-          git commit -m "chore: regenerate README and dist/projects.json [skip ci]"
+          git commit -m "chore: regenerate README and dist/*.json [skip ci]"
           git push

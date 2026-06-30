@@ -20,5 +20,47 @@ jobs:
       - name: Install dependencies
         run: pip install pyyaml jsonschema
 
-      - name: Validate project entries
+      - name: Validate entries
         run: python3 scripts/validate.py
+
+      # Smoke-test the generators on every PR: they must run cleanly and emit
+      # well-formed feeds. This is deliberately NOT a `git diff` gate against the
+      # committed README.md / dist/*.json — contributors never regenerate those
+      # by hand (see CONTRIBUTING.md); the post-merge "Generate" workflow does.
+      # The point is to catch a broken generator (or data that breaks it) here,
+      # before it reaches main where it would otherwise only surface as a
+      # silently failing auto-commit. Outputs are regenerated into the throwaway
+      # CI checkout and never committed.
+      - name: Smoke-test generators
+        run: |
+          python3 scripts/gen-readme.py
+          python3 scripts/build.py
+          python3 - <<'PY'
+          import glob, json, sys
+
+          problems = []
+          for path in sorted(glob.glob("dist/*.json")):
+              try:
+                  with open(path) as fh:
+                      data = json.load(fh)
+              except (ValueError, OSError) as exc:
+                  problems.append(f"{path}: not valid JSON: {exc}")
+                  continue
+              if "version" not in data or "count" not in data:
+                  problems.append(f"{path}: missing 'version' or 'count'")
+                  continue
+              payload = [k for k in data if k not in ("version", "count")]
+              if len(payload) != 1 or not isinstance(data[payload[0]], list):
+                  problems.append(f"{path}: expected exactly one list payload")
+              elif len(data[payload[0]]) != data["count"]:
+                  problems.append(
+                      f"{path}: count {data['count']} != {len(data[payload[0]])} entries"
+                  )
+
+          if problems:
+              print("✗ generator smoke test failed:", file=sys.stderr)
+              for p in problems:
+                  print(f"  - {p}", file=sys.stderr)
+              sys.exit(1)
+          print("✓ generators ran cleanly; dist/*.json parse and counts match.")
+          PY
