@@ -80,11 +80,12 @@ publish_date: 2026-05-01     # optional (YYYY-MM-DD); enables date ordering/filt
 | `featured`     | no       | Omit it. Maintainers set this to pin an item to the featured row.   |
 
 **Thumbnails.** You do not set a thumbnail in the YAML, and third-party image
-URLs are not allowed. YouTube videos get their thumbnail automatically. For an
-article (or any non-YouTube item) you may add an optional image at
+URLs are not allowed. YouTube videos get their thumbnail automatically. Every
+non-YouTube item (an article, blog, or misc entry) **must** ship an image at
 `data/content/thumbnails/<slug>.png` (`.png`, `.jpg`, `.jpeg`, or `.webp`, named
-after your file's slug) — the build wires it in. Omit it and the site shows a
-branded fallback tile. See [`data/content/thumbnails/`](data/content/thumbnails/).
+after your file's slug) — the build wires it in, and `validate.py` rejects a
+non-YouTube entry that has none. Keep images roughly 1280×720 and under ~500 KB.
+See [`data/content/thumbnails/`](data/content/thumbnails/).
 
 ## What gets accepted
 
