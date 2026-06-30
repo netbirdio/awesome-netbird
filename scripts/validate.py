@@ -145,14 +145,26 @@ def validate_collection(cfg, errors):
 
         normalize_dates(data)
 
-        for err in sorted(validator.iter_errors(data), key=lambda e: list(e.path)):
+        schema_errors = sorted(validator.iter_errors(data), key=lambda e: list(e.path))
+        for err in schema_errors:
             loc = ".".join(str(p) for p in err.path) or "(root)"
             errors.append(f"{path}: {loc}: {err.message}")
+        if schema_errors:
+            # Entry doesn't match its schema. The checks below assume schema-valid
+            # types (a string url and unique field, a YYYY-MM-DD publish_date);
+            # running them on bad input would be redundant with the errors above
+            # at best and a traceback at worst (urlsplit() or .lower() on a
+            # non-string). The schema errors already say what to fix — re-run once
+            # the entry conforms.
+            continue
 
-        # The schema only enforces the YYYY-MM-DD shape; confirm it is a real
-        # calendar date so e.g. 2026-99-99 (which matches the pattern) is caught.
+        # Past this point the entry conforms to its schema, so the fields below
+        # are the types their schema declares.
+
+        # publish_date matches the YYYY-MM-DD shape; confirm it is a real calendar
+        # date too, so e.g. 2026-99-99 is caught rather than silently mis-sorted.
         publish_date = data.get("publish_date")
-        if isinstance(publish_date, str):
+        if publish_date is not None:
             try:
                 datetime.date.fromisoformat(publish_date)
             except ValueError:
@@ -160,24 +172,28 @@ def validate_collection(cfg, errors):
                     f"{path}: publish_date: '{publish_date}' is not a real calendar date"
                 )
 
+        # url_error still matters for a schema that declares `format: uri` without
+        # a strict pattern; dedupe only a URL that passed it, so canonical_url()
+        # never sees a non-string.
         url = data.get("url")
         if url:
             msg = url_error(url)
             if msg:
                 errors.append(f"{path}: url: {msg}")
-            if cfg["unique_url"]:
+            elif cfg["unique_url"]:
                 key = canonical_url(url)
                 if key in urls:
                     errors.append(f"{path}: duplicate url, also in {urls[key]}")
                 else:
                     urls[key] = path
 
-        field = cfg["unique_field"]
-        value = data.get(field)
+        value = data.get(cfg["unique_field"])
         if value:
             key = value.lower()
             if key in keys:
-                errors.append(f"{path}: duplicate {field} '{value}', also in {keys[key]}")
+                errors.append(
+                    f"{path}: duplicate {cfg['unique_field']} '{value}', also in {keys[key]}"
+                )
             else:
                 keys[key] = path
 

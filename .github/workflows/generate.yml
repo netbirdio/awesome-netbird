@@ -34,7 +34,15 @@ jobs:
           python-version: "3.x"
 
       - name: Install dependencies
-        run: pip install pyyaml
+        run: pip install pyyaml jsonschema
+
+      # Validate before regenerating. main is unprotected and this job commits
+      # directly, so without this gate a direct push of invalid-but-buildable
+      # data (the generators don't check the schema) would be compiled into the
+      # published dist/*.json. If validation fails, the job stops here and
+      # nothing is regenerated or committed.
+      - name: Validate entries
+        run: python3 scripts/validate.py
 
       - name: Regenerate build outputs
         run: |
