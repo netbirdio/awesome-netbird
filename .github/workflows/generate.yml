@@ -10,6 +10,7 @@ on:
     branches: [main]
     paths:
       - "data/projects/**"
+      - "data/content/**"
       - "scripts/gen-readme.py"
       - "scripts/build.py"
       - ".github/workflows/generate.yml"
@@ -42,13 +43,13 @@ jobs:
 
       - name: Commit if changed
         run: |
-          if git diff --quiet README.md dist/projects.json; then
+          if git diff --quiet README.md dist/; then
             echo "Generated files already up to date; nothing to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md dist/projects.json
+          git add README.md dist/
           # [skip ci] stops this commit from retriggering this workflow.
           git commit -m "chore: regenerate README and dist/projects.json [skip ci]"
           git push

@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "count": 6,
+  "content": [
+    {
+      "id": "jasons-lab-netbird-pihole-dns",
+      "type": "video",
+      "title": "NetBird VPN & Pi-Hole DNS Setup",
+      "source": "Jason's Lab",
+      "url": "https://www.youtube.com/watch?v=4tuK8A4_gV4",
+      "thumbnail": "https://img.youtube.com/vi/4tuK8A4_gV4/maxresdefault.jpg",
+      "publish_date": "2026-05-12",
+      "featured": true
+    },
+    {
+      "id": "christian-lempa-netbird-setup-guide",
+      "type": "video",
+      "title": "NetBird Setup Guide (New & Simplified)",
+      "source": "Christian Lempa",
+      "url": "https://www.youtube.com/watch?v=1BQdldvOC7w",
+      "thumbnail": "https://img.youtube.com/vi/1BQdldvOC7w/maxresdefault.jpg",
+      "publish_date": "2026-04-10",
+      "featured": true
+    },
+    {
+      "id": "homelabz-netbird-tailscale-migration",
+      "type": "article",
+      "title": "NetBird VPN homelab: ho sostituito Tailscale in 12 minuti e 3 subnet",
+      "source": "Antonio Distefano",
+      "url": "https://homelabz.cc/blog/netbird-vpn-homelab-tailscale-migrazione",
+      "thumbnail": "https://raw.githubusercontent.com/netbirdio/awesome-netbird/main/data/content/thumbnails/homelabz-netbird-tailscale-migration.png",
+      "publish_date": "2026-03-30",
+      "featured": true
+    },
+    {
+      "id": "serversathome-netbird-reverse-proxy",
+      "type": "video",
+      "title": "NetBird Reverse Proxy: Better than Cloudflare Tunnels?",
+      "source": "ServersatHome",
+      "url": "https://www.youtube.com/watch?v=-yfE3Lb3hTI",
+      "thumbnail": "https://img.youtube.com/vi/-yfE3Lb3hTI/maxresdefault.jpg",
+      "publish_date": "2026-03-14",
+      "featured": true
+    },
+    {
+      "id": "konstfish-netbird-reverse-proxy-kubernetes",
+      "type": "article",
+      "title": "Deploying the NetBird Reverse Proxy on Kubernetes",
+      "source": "David Fischer",
+      "url": "https://konst.fish/blog/netbird-reverse-proxy-on-kubernetes",
+      "thumbnail": "https://raw.githubusercontent.com/netbirdio/awesome-netbird/main/data/content/thumbnails/konstfish-netbird-reverse-proxy-kubernetes.jpg",
+      "publish_date": "2026-02-18",
+      "featured": true
+    },
+    {
+      "id": "lawrence-systems-netbird-overlay-vpn",
+      "type": "video",
+      "title": "NetBird: The Easy-to-Use Open-Source WireGuard Overlay VPN You Can Self-Host",
+      "source": "Lawrence Systems",
+      "url": "https://www.youtube.com/watch?v=Kwrff6h0rEw",
+      "thumbnail": "https://img.youtube.com/vi/Kwrff6h0rEw/maxresdefault.jpg",
+      "publish_date": "2024-05-03",
+      "featured": true
+    }
+  ]
+}

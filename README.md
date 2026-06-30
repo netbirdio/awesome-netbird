@@ -1,27 +1,27 @@
 # Awesome NetBird
 
-> A curated list of community projects, tools, and integrations for [NetBird](https://netbird.io) — the open-source, WireGuard-based zero-configuration mesh VPN.
+> A curated list of community projects and content for [NetBird](https://netbird.io) — the open-source, WireGuard-based zero-configuration mesh VPN.
 
-This list is the source of truth for the community projects directory on [netbird.io](https://netbird.io). Each entry lives in its own file under [`data/projects/`](data/projects/); the site reads from this repository, so adding a project here adds it to the website. To submit one, see [CONTRIBUTING.md](CONTRIBUTING.md).
+This repository is the source of truth for the community directory on [netbird.io](https://netbird.io). Each entry lives in its own file under [`data/`](data/); the site reads from this repository, so adding an entry here adds it to the website. To submit one, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
-**10 projects** · 🟢 9 official · ⭐ 1 endorsed · 0 community
+**10 projects** · **6 pieces of content**
 
 ## Contents
 
-- [Apps](#apps) (1)
-- [Extensions](#extensions) (4)
-- [Interfaces](#interfaces) (1)
-- [Tools](#tools) (4)
+- [Projects](#projects) (10)
+- [Content](#content) (6)
+
+## Projects
 
 **Legend:** `🟢 Official` built and maintained by the NetBird team · `⭐ Endorsed` a community project the NetBird team vouches for.
 
-## Apps
+### Apps
 
 _Run or deploy NetBird somewhere — images, clients, and devices._
 
 - **[Home Assistant Add-on](https://github.com/netbirdio/addon-netbird)** `🟢 Official` — The official NetBird add-on for Home Assistant, connecting your smart home to your private network in a few clicks with no port forwarding. _by NetBird_
 
-## Extensions
+### Extensions
 
 _Plug NetBird into another tool or platform._
 
@@ -30,13 +30,13 @@ _Plug NetBird into another tool or platform._
 - **[NetBird for Unraid](https://github.com/netbirdio/netbird-unraid)** `🟢 Official` — The official NetBird plugin for Unraid, making your Unraid server a native peer on your NetBird network with no extra container or hop. _by NetBird_
 - **[NetworkManager Plugin](https://github.com/netbirdio/network-manager-vpn-plugin)** `🟢 Official` — The official NetworkManager VPN plugin that lets you manage NetBird connections from your Linux desktop's standard VPN controls. _by NetBird_
 
-## Interfaces
+### Interfaces
 
 _View or drive NetBird — CLIs, dashboards, and exporters._
 
 - **[netbird-management-cli](https://github.com/TechHutTV/netbird-management-cli)** `⭐ Endorsed` — An unofficial Go CLI to manage NetBird peers, groups, policies, and DNS from the terminal via the REST API. _by TechHutTV_
 
-## Tools
+### Tools
 
 _Automate or manage NetBird via code — libraries and infrastructure as code._
 
@@ -45,7 +45,23 @@ _Automate or manage NetBird via code — libraries and infrastructure as code._
 - **[Kubernetes Operator](https://github.com/netbirdio/kubernetes-operator)** `🟢 Official` — The official operator that provisions NetBird access for Kubernetes workloads declaratively, managing peers, routes, and groups as custom resources. _by NetBird_
 - **[Terraform Provider](https://github.com/netbirdio/terraform-provider-netbird)** `🟢 Official` — The official Terraform provider for managing your NetBird account and its resources as infrastructure as code. _by NetBird_
 
+## Content
+
+_Community videos, articles, and posts about NetBird. ⭐ marks featured items._
+
+### Videos
+
+- **[NetBird Reverse Proxy: Better than Cloudflare Tunnels?](https://www.youtube.com/watch?v=-yfE3Lb3hTI)** ⭐ — _by ServersatHome_
+- **[NetBird Setup Guide (New & Simplified)](https://www.youtube.com/watch?v=1BQdldvOC7w)** ⭐ — _by Christian Lempa_
+- **[NetBird VPN & Pi-Hole DNS Setup](https://www.youtube.com/watch?v=4tuK8A4_gV4)** ⭐ — _by Jason's Lab_
+- **[NetBird: The Easy-to-Use Open-Source WireGuard Overlay VPN You Can Self-Host](https://www.youtube.com/watch?v=Kwrff6h0rEw)** ⭐ — _by Lawrence Systems_
+
+### Articles
+
+- **[Deploying the NetBird Reverse Proxy on Kubernetes](https://konst.fish/blog/netbird-reverse-proxy-on-kubernetes)** ⭐ — _by David Fischer_
+- **[NetBird VPN homelab: ho sostituito Tailscale in 12 minuti e 3 subnet](https://homelabz.cc/blog/netbird-vpn-homelab-tailscale-migrazione)** ⭐ — _by Antonio Distefano_
+
 ## Contributing
 
-Found a NetBird project that belongs here? Open a pull request adding one file under [`data/projects/`](data/projects/). See [CONTRIBUTING.md](CONTRIBUTING.md) for the format and review criteria.
+Found a NetBird project or piece of content that belongs here? Open a pull request adding one file under [`data/`](data/). See [CONTRIBUTING.md](CONTRIBUTING.md) for the format and review criteria.
 
