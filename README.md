@@ -51,15 +51,15 @@ _Community videos, articles, and posts about NetBird. ⭐ marks featured items._
 
 ### Videos
 
-- **[NetBird Reverse Proxy: Better than Cloudflare Tunnels?](https://www.youtube.com/watch?v=-yfE3Lb3hTI)** ⭐ — _by ServersatHome_
 - **[NetBird Setup Guide (New & Simplified)](https://www.youtube.com/watch?v=1BQdldvOC7w)** ⭐ — _by Christian Lempa_
 - **[NetBird VPN & Pi-Hole DNS Setup](https://www.youtube.com/watch?v=4tuK8A4_gV4)** ⭐ — _by Jason's Lab_
-- **[NetBird: The Easy-to-Use Open-Source WireGuard Overlay VPN You Can Self-Host](https://www.youtube.com/watch?v=Kwrff6h0rEw)** ⭐ — _by Lawrence Systems_
+- **[NetBird Reverse Proxy: Better than Cloudflare Tunnels?](https://www.youtube.com/watch?v=-yfE3Lb3hTI)** — _by ServersatHome_
+- **[NetBird: The Easy-to-Use Open-Source WireGuard Overlay VPN You Can Self-Host](https://www.youtube.com/watch?v=Kwrff6h0rEw)** — _by Lawrence Systems_
 
 ### Articles
 
 - **[Deploying the NetBird Reverse Proxy on Kubernetes](https://konst.fish/blog/netbird-reverse-proxy-on-kubernetes)** ⭐ — _by David Fischer_
-- **[NetBird VPN homelab: ho sostituito Tailscale in 12 minuti e 3 subnet](https://homelabz.cc/blog/netbird-vpn-homelab-tailscale-migrazione)** ⭐ — _by Antonio Distefano_
+- **[NetBird VPN homelab: ho sostituito Tailscale in 12 minuti e 3 subnet](https://homelabz.cc/blog/netbird-vpn-homelab-tailscale-migrazione)** — _by Antonio Distefano_
 
 ## Contributing
 
