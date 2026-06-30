@@ -1,0 +1,9 @@
+name: NetBird API Exporter
+description: >-
+  Prometheus exporter that collects metrics from the NetBird API (peers, groups,
+  users, networks, and DNS) and exposes them for monitoring, with a prebuilt
+  Grafana dashboard.
+author: Matan Baruch
+category: Extensions
+url: https://github.com/matanbaruch/netbird-api-exporter
+badge: endorsed

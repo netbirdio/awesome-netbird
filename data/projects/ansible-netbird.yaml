@@ -1,0 +1,7 @@
+name: ansible-netbird
+description: >-
+  An Ansible collection for deploying and managing NetBird servers and peers, with dynamic
+  inventory for peer data.
+author: Dominion Solutions
+category: Tools
+url: https://github.com/dominion-solutions/ansible-netbird

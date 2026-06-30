@@ -1,0 +1,7 @@
+name: docker-netbird
+description: >-
+  A rootless, distroless Docker image that packages the NetBird management server, dashboard,
+  and signal server into one lightweight container.
+author: 11notes
+category: Apps
+url: https://github.com/11notes/docker-netbird

@@ -1,0 +1,7 @@
+name: netbird-delayed-auto-update-windows
+description: >-
+  A PowerShell script and scheduled task that delays NetBird Windows client updates by a set
+  number of days to avoid rolling out bad releases.
+author: NetHorror
+category: Tools
+url: https://github.com/NetHorror/netbird-delayed-auto-update-windows

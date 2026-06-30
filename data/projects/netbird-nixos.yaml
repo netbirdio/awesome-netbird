@@ -1,0 +1,8 @@
+name: NetBird for NixOS
+description: >-
+  NetBird client package and services.netbird module in nixpkgs for
+  declaratively installing and configuring the NetBird client on NixOS.
+author: nixpkgs maintainers
+category: Apps
+url: https://github.com/NixOS/nixpkgs/tree/master/pkgs/by-name/ne/netbird
+badge: endorsed

@@ -1,0 +1,7 @@
+name: mavlink-anywhere
+description: >-
+  A companion-computer routing dashboard for drone MAVLink telemetry that uses NetBird for
+  secure remote access to ground stations and operators.
+author: alireza787b
+category: Apps
+url: https://github.com/alireza787b/mavlink-anywhere
