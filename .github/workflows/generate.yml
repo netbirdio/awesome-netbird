@@ -1,7 +1,7 @@
 name: Generate
 
-# Regenerates the build outputs (README.md and dist/projects.json) from the
-# data in data/projects/ and commits them back to main. main is unprotected, so
+# Regenerates the build outputs (README.md and dist/*.json) from the data in
+# data/ and commits them back to main. main is unprotected, so
 # the default GITHUB_TOKEN (contents: write) can push directly — no PR creation,
 # so this does not depend on the org "Allow Actions to create pull requests"
 # setting. Contributors only ever edit YAML.
@@ -10,6 +10,7 @@ on:
     branches: [main]
     paths:
       - "data/projects/**"
+      - "data/content/**"
       - "scripts/gen-readme.py"
       - "scripts/build.py"
       - ".github/workflows/generate.yml"
@@ -33,7 +34,15 @@ jobs:
           python-version: "3.x"
 
       - name: Install dependencies
-        run: pip install pyyaml
+        run: pip install pyyaml jsonschema
+
+      # Validate before regenerating. main is unprotected and this job commits
+      # directly, so without this gate a direct push of invalid-but-buildable
+      # data (the generators don't check the schema) would be compiled into the
+      # published dist/*.json. If validation fails, the job stops here and
+      # nothing is regenerated or committed.
+      - name: Validate entries
+        run: python3 scripts/validate.py
 
       - name: Regenerate build outputs
         run: |
@@ -42,13 +51,13 @@ jobs:
 
       - name: Commit if changed
         run: |
-          if git diff --quiet README.md dist/projects.json; then
+          if git diff --quiet README.md dist/; then
             echo "Generated files already up to date; nothing to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md dist/projects.json
+          git add README.md dist/
           # [skip ci] stops this commit from retriggering this workflow.
-          git commit -m "chore: regenerate README and dist/projects.json [skip ci]"
+          git commit -m "chore: regenerate README and dist/*.json [skip ci]"
           git push

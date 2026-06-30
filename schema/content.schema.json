@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/netbirdio/awesome-netbird/schema/content.schema.json",
+  "title": "NetBird community content",
+  "description": "One file per piece of content under data/content/<slug>.yaml. The filename slug is the stable id.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["title", "type", "source", "url"],
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Title of the video or article, as published.",
+      "minLength": 3,
+      "maxLength": 160
+    },
+    "type": {
+      "type": "string",
+      "description": "Kind of content. video = a video (YouTube, etc.); article = a written tutorial/guide/review; blog = a blog post; misc = anything else (podcast, talk, social thread).",
+      "enum": ["video", "article", "blog", "misc"]
+    },
+    "source": {
+      "type": "string",
+      "description": "Creator, channel, or publication that produced it.",
+      "minLength": 1,
+      "maxLength": 80
+    },
+    "url": {
+      "type": "string",
+      "description": "Canonical link to the content.",
+      "format": "uri",
+      "pattern": "^https://[^\\s/]+\\.[^\\s/]+(/\\S*)?$"
+    },
+    "publish_date": {
+      "type": "string",
+      "description": "Publish date (YYYY-MM-DD). Optional but recommended — it drives ordering (newest first) and any date filter on the site.",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "featured": {
+      "type": "boolean",
+      "description": "Maintainer-set. true pins the item into the featured row on netbird.io. Omit for a standard listing."
+    }
+  }
+}
