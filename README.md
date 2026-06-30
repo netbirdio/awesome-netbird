@@ -4,11 +4,11 @@
 
 This repository is the source of truth for the community directory on [netbird.io](https://netbird.io). Each entry lives in its own file under [`data/`](data/); the site reads from this repository, so adding an entry here adds it to the website. To submit one, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
-**10 projects** · **12 pieces of content**
+**28 projects** · **12 pieces of content**
 
 ## Contents
 
-- [Projects](#projects) (10)
+- [Projects](#projects) (28)
 - [Content](#content) (12)
 
 ## Projects
@@ -20,30 +20,48 @@ This repository is the source of truth for the community directory on [netbird.i
 _Run or deploy NetBird somewhere — images, clients, and devices._
 
 - **[Home Assistant Add-on](https://github.com/netbirdio/addon-netbird)** `🟢 Official` — The official NetBird add-on for Home Assistant, connecting your smart home to your private network in a few clicks with no port forwarding. _by NetBird_
+- **[NetBird Helm Chart](https://github.com/netbirdio/helms/tree/main/charts/netbird)** `🟢 Official` — Official Helm chart for deploying NetBird's self-hosted control plane (management, signal, relay, and dashboard) into a Kubernetes cluster, with ingress, persistence, and monitoring support. _by NetBird_
+- **[NetBird for NixOS](https://github.com/NixOS/nixpkgs/tree/master/pkgs/by-name/ne/netbird)** `⭐ Endorsed` — NetBird client package and services.netbird module in nixpkgs for declaratively installing and configuring the NetBird client on NixOS. _by nixpkgs maintainers_
+- **[NetBird Proxmox LXC](https://community-scripts.org/scripts/add-netbird-lxc?id=add-netbird-lxc)** `⭐ Endorsed` — Community helper script that creates a Proxmox VE LXC container running the NetBird client, set up as a routing peer to bridge your Proxmox network into your NetBird network. _by Community Scripts_
+- **[NetBird Snap](https://github.com/ubuntu-robotics/netbird_snap)** `⭐ Endorsed` — Snap package of the NetBird client for Linux, letting you install and run NetBird on Ubuntu and other snapd-compatible distributions via the Snap Store. _by Ubuntu Robotics_
+- **[docker-netbird](https://github.com/11notes/docker-netbird)** — A rootless, distroless Docker image that packages the NetBird management server, dashboard, and signal server into one lightweight container. _by 11notes_
+- **[JetBird](https://codeberg.org/bg443/JetBird)** — An unofficial, privacy-focused native Android client for NetBird, adding split tunneling, per-app exclusion, and Rosenpass support. Available on F-Droid. _by bg443_
+- **[mavlink-anywhere](https://github.com/alireza787b/mavlink-anywhere)** — A companion-computer routing dashboard for drone MAVLink telemetry that uses NetBird for secure remote access to ground stations and operators. _by alireza787b_
+- **[nanoNetBird](https://github.com/bc547/nanoNetBird)** — Brings the NetBird client to nanoKVM out-of-band management devices, with a single-command install that auto-updates. _by bc547_
+- **[NetBird on Arch (AUR)](https://aur.archlinux.org/packages/netbird)** — AUR package that builds and installs the NetBird client from source on Arch Linux, with a prebuilt netbird-bin variant also available. _by tarball_
 
 ### Extensions
 
 _Plug NetBird into another tool or platform._
 
-- **[NetBird for OpenWrt](https://github.com/netbirdio/openwrt-netbird)** `🟢 Official` — The official OpenWrt package that runs NetBird on your router for secure mesh networking, with setup-key login and init scripts. _by NetBird_
 - **[NetBird for pfSense](https://github.com/netbirdio/pfsense-netbird)** `🟢 Official` — The official pfSense package that adds NetBird to your firewall, managed from the pfSense web UI under the VPN menu. _by NetBird_
 - **[NetBird for Unraid](https://github.com/netbirdio/netbird-unraid)** `🟢 Official` — The official NetBird plugin for Unraid, making your Unraid server a native peer on your NetBird network with no extra container or hop. _by NetBird_
 - **[NetworkManager Plugin](https://github.com/netbirdio/network-manager-vpn-plugin)** `🟢 Official` — The official NetworkManager VPN plugin that lets you manage NetBird connections from your Linux desktop's standard VPN controls. _by NetBird_
+- **[NetBird API Exporter](https://github.com/matanbaruch/netbird-api-exporter)** `⭐ Endorsed` — Prometheus exporter that collects metrics from the NetBird API (peers, groups, users, networks, and DNS) and exposes them for monitoring, with a prebuilt Grafana dashboard. _by Matan Baruch_
+- **[NetBird for OpenWrt](https://github.com/netbirdio/openwrt-netbird)** `⭐ Endorsed` — The official OpenWrt package that runs NetBird on your router for secure mesh networking, with setup-key login and init scripts. _by NetBird_
+- **[netbird-connect](https://github.com/Alemiz112/netbird-connect)** `⭐ Endorsed` — A GitHub Action that joins your CI/CD runners to a NetBird network so workflows can reach private resources securely. _by Alemiz112_
+- **[NetBird for Talos Linux](https://github.com/siderolabs/extensions/tree/main/network/netbird)** — Talos Linux system extension that runs the NetBird client on Talos nodes, giving machines on your NetBird network secure access to your Talos Kubernetes nodes. _by Sidero Labs_
+- **[netbird-traefik](https://github.com/yblis/netbird-traefik)** — Run NetBird behind a Traefik reverse proxy using Traefik labels, without changing your existing stack. _by yblis_
+- **[NetDesk](https://github.com/yblis/NetDesk)** — A Chrome extension that adds one-click RustDesk remote access (desktop, terminal, file transfer) right inside the NetBird dashboard. _by yblis_
 
 ### Interfaces
 
 _View or drive NetBird — CLIs, dashboards, and exporters._
 
-- **[netbird-management-cli](https://github.com/TechHutTV/netbird-management-cli)** `⭐ Endorsed` — An unofficial Go CLI to manage NetBird peers, groups, policies, and DNS from the terminal via the REST API. _by TechHutTV_
+- **[netbird-exporter](https://github.com/gocloudio/netbird-exporter)** — A Prometheus exporter that surfaces NetBird peer connection status, latency, and traffic metrics for your dashboards. _by gocloudio_
 
 ### Tools
 
 _Automate or manage NetBird via code — libraries and infrastructure as code._
 
-- **[Ansible Collection](https://github.com/netbirdio/ansible-netbird)** `🟢 Official` — The official Ansible collection for managing self-hosted NetBird infrastructure (users, peers, policies, routes, and DNS) via the REST API. _by NetBird_
 - **[Crossplane Provider](https://github.com/netbirdio/netbird-crossplane-provider)** `🟢 Official` — The official Crossplane provider for managing NetBird resources from Kubernetes-native infrastructure pipelines. _by NetBird_
 - **[Kubernetes Operator](https://github.com/netbirdio/kubernetes-operator)** `🟢 Official` — The official operator that provisions NetBird access for Kubernetes workloads declaratively, managing peers, routes, and groups as custom resources. _by NetBird_
 - **[Terraform Provider](https://github.com/netbirdio/terraform-provider-netbird)** `🟢 Official` — The official Terraform provider for managing your NetBird account and its resources as infrastructure as code. _by NetBird_
+- **[Ansible Collection](https://github.com/netbirdio/ansible-netbird)** `⭐ Endorsed` — The official Ansible collection for managing self-hosted NetBird infrastructure (users, peers, policies, routes, and DNS) via the REST API. _by NetBird_
+- **[ansible-netbird](https://github.com/dominion-solutions/ansible-netbird)** — An Ansible collection for deploying and managing NetBird servers and peers, with dynamic inventory for peer data. _by Dominion Solutions_
+- **[netbird-delayed-auto-update-windows](https://github.com/NetHorror/netbird-delayed-auto-update-windows)** — A PowerShell script and scheduled task that delays NetBird Windows client updates by a set number of days to avoid rolling out bad releases. _by NetHorror_
+- **[netbird-mullvad-bypass](https://github.com/d10n/netbird-mullvad-bypass)** — An nftables-based bypass that lets NetBird and Mullvad VPN coexist on Linux, with packages for Arch, Fedora/RHEL, and Debian/Ubuntu. _by d10n_
+- **[netbird-python-client](https://github.com/drtinkerer/netbird-python-client)** — An unofficial Python client library for the NetBird API, covering 30+ resources for managing your network as code. _by drtinkerer_
 
 ## Content
 
