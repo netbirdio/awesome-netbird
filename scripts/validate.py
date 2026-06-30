@@ -220,9 +220,12 @@ def validate_thumbnails(errors):
         if base in ("README.md", ".gitkeep"):
             continue
         name, ext = os.path.splitext(base)
-        if ext.lower() not in THUMBNAIL_EXTS:
+        # Exact (case-sensitive) match: build.py's repo_thumbnail() probes only the
+        # lowercase suffixes in THUMBNAIL_EXTS, so an uppercase .PNG would pass here
+        # yet never be discovered by the build on a case-sensitive filesystem.
+        if ext not in THUMBNAIL_EXTS:
             errors.append(
-                f"{THUMBNAIL_DIR}/{base}: unsupported file type (use .png, .jpg, .jpeg, or .webp)"
+                f"{THUMBNAIL_DIR}/{base}: unsupported file type (use a lowercase .png, .jpg, .jpeg, or .webp)"
             )
             continue
         if not SLUG_RE.match(name):
