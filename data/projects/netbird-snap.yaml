@@ -1,0 +1,8 @@
+name: NetBird Snap
+description: >-
+  Snap package of the NetBird client for Linux, letting you install and run
+  NetBird on Ubuntu and other snapd-compatible distributions via the Snap Store.
+author: Ubuntu Robotics
+category: Apps
+url: https://github.com/ubuntu-robotics/netbird_snap
+badge: endorsed

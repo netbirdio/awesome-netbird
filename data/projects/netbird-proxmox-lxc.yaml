@@ -1,0 +1,9 @@
+name: NetBird Proxmox LXC
+description: >-
+  Community helper script that creates a Proxmox VE LXC container running the
+  NetBird client, set up as a routing peer to bridge your Proxmox network into
+  your NetBird network.
+author: Community Scripts
+category: Apps
+url: https://community-scripts.org/scripts/add-netbird-lxc?id=add-netbird-lxc
+badge: endorsed

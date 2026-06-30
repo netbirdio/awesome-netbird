@@ -1,0 +1,9 @@
+name: NetBird Helm Chart
+description: >-
+  Official Helm chart for deploying NetBird's self-hosted control plane
+  (management, signal, relay, and dashboard) into a Kubernetes cluster, with
+  ingress, persistence, and monitoring support.
+author: NetBird
+category: Apps
+url: https://github.com/netbirdio/helms/tree/main/charts/netbird
+badge: official

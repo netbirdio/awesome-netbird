@@ -1,0 +1,7 @@
+name: NetBird on Arch (AUR)
+description: >-
+  AUR package that builds and installs the NetBird client from source on Arch
+  Linux, with a prebuilt netbird-bin variant also available.
+author: tarball
+category: Apps
+url: https://aur.archlinux.org/packages/netbird
