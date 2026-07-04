@@ -1,0 +1,9 @@
+name: caddy-netbird
+description: >-
+  A Caddy plugin that embeds a NetBird client, letting the reverse proxy route
+  HTTP and raw TCP/UDP traffic to upstreams through a NetBird network instead of
+  the public internet.
+author: lixmal
+category: Extensions
+url: https://github.com/lixmal/caddy-netbird
+badge: endorsed
