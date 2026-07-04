@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "count": 28,
+  "count": 29,
   "projects": [
     {
       "id": "home-assistant-addon",
@@ -113,6 +113,15 @@
       "category": "Extensions",
       "url": "https://github.com/netbirdio/network-manager-vpn-plugin",
       "badge": "official"
+    },
+    {
+      "id": "caddy-netbird",
+      "name": "caddy-netbird",
+      "description": "A Caddy plugin that embeds a NetBird client, letting the reverse proxy route HTTP and raw TCP/UDP traffic to upstreams through a NetBird network instead of the public internet.",
+      "author": "lixmal",
+      "category": "Extensions",
+      "url": "https://github.com/lixmal/caddy-netbird",
+      "badge": "endorsed"
     },
     {
       "id": "netbird-api-exporter",

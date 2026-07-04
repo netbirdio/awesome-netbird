@@ -4,11 +4,11 @@
 
 This repository is the source of truth for the community directory on [netbird.io](https://netbird.io). Each entry lives in its own file under [`data/`](data/); the site reads from this repository, so adding an entry here adds it to the website. To submit one, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
-**28 projects** · **12 pieces of content**
+**29 projects** · **12 pieces of content**
 
 ## Contents
 
-- [Projects](#projects) (28)
+- [Projects](#projects) (29)
 - [Content](#content) (12)
 
 ## Projects
@@ -37,6 +37,7 @@ _Plug NetBird into another tool or platform._
 - **[NetBird for pfSense](https://github.com/netbirdio/pfsense-netbird)** `🟢 Official` — The official pfSense package that adds NetBird to your firewall, managed from the pfSense web UI under the VPN menu. _by NetBird_
 - **[NetBird for Unraid](https://github.com/netbirdio/netbird-unraid)** `🟢 Official` — The official NetBird plugin for Unraid, making your Unraid server a native peer on your NetBird network with no extra container or hop. _by NetBird_
 - **[NetworkManager Plugin](https://github.com/netbirdio/network-manager-vpn-plugin)** `🟢 Official` — The official NetworkManager VPN plugin that lets you manage NetBird connections from your Linux desktop's standard VPN controls. _by NetBird_
+- **[caddy-netbird](https://github.com/lixmal/caddy-netbird)** `⭐ Endorsed` — A Caddy plugin that embeds a NetBird client, letting the reverse proxy route HTTP and raw TCP/UDP traffic to upstreams through a NetBird network instead of the public internet. _by lixmal_
 - **[NetBird API Exporter](https://github.com/matanbaruch/netbird-api-exporter)** `⭐ Endorsed` — Prometheus exporter that collects metrics from the NetBird API (peers, groups, users, networks, and DNS) and exposes them for monitoring, with a prebuilt Grafana dashboard. _by Matan Baruch_
 - **[NetBird for OpenWrt](https://github.com/netbirdio/openwrt-netbird)** `⭐ Endorsed` — The official OpenWrt package that runs NetBird on your router for secure mesh networking, with setup-key login and init scripts. _by NetBird_
 - **[netbird-connect](https://github.com/Alemiz112/netbird-connect)** `⭐ Endorsed` — A GitHub Action that joins your CI/CD runners to a NetBird network so workflows can reach private resources securely. _by Alemiz112_
