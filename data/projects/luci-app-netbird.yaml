@@ -1,0 +1,7 @@
+name: luci-app-netbird
+description: >-
+  A LuCI web UI for managing the NetBird client on OpenWrt / ImmortalWrt
+  routers, with one-click firewall zone and LAN-to-mesh forwarding setup.
+author: looong-cat
+category: Extensions
+url: https://github.com/looong-cat/luci-app-netbird
