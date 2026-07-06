@@ -4,11 +4,11 @@
 
 This repository is the source of truth for the community directory on [netbird.io](https://netbird.io). Each entry lives in its own file under [`data/`](data/); the site reads from this repository, so adding an entry here adds it to the website. To submit one, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
-**29 projects** · **12 pieces of content**
+**30 projects** · **12 pieces of content**
 
 ## Contents
 
-- [Projects](#projects) (29)
+- [Projects](#projects) (30)
 - [Content](#content) (12)
 
 ## Projects
@@ -41,6 +41,7 @@ _Plug NetBird into another tool or platform._
 - **[NetBird API Exporter](https://github.com/matanbaruch/netbird-api-exporter)** `⭐ Endorsed` — Prometheus exporter that collects metrics from the NetBird API (peers, groups, users, networks, and DNS) and exposes them for monitoring, with a prebuilt Grafana dashboard. _by Matan Baruch_
 - **[NetBird for OpenWrt](https://github.com/netbirdio/openwrt-netbird)** `⭐ Endorsed` — The official OpenWrt package that runs NetBird on your router for secure mesh networking, with setup-key login and init scripts. _by NetBird_
 - **[netbird-connect](https://github.com/Alemiz112/netbird-connect)** `⭐ Endorsed` — A GitHub Action that joins your CI/CD runners to a NetBird network so workflows can reach private resources securely. _by Alemiz112_
+- **[luci-app-netbird](https://github.com/looong-cat/luci-app-netbird)** — A LuCI web UI for managing the NetBird client on OpenWrt / ImmortalWrt routers, with one-click firewall zone and LAN-to-mesh forwarding setup. _by looong-cat_
 - **[NetBird for Talos Linux](https://github.com/siderolabs/extensions/tree/main/network/netbird)** — Talos Linux system extension that runs the NetBird client on Talos nodes, giving machines on your NetBird network secure access to your Talos Kubernetes nodes. _by Sidero Labs_
 - **[netbird-traefik](https://github.com/yblis/netbird-traefik)** — Run NetBird behind a Traefik reverse proxy using Traefik labels, without changing your existing stack. _by yblis_
 - **[NetDesk](https://github.com/yblis/NetDesk)** — A Chrome extension that adds one-click RustDesk remote access (desktop, terminal, file transfer) right inside the NetBird dashboard. _by yblis_

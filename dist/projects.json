@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "count": 29,
+  "count": 30,
   "projects": [
     {
       "id": "home-assistant-addon",
@@ -149,6 +149,14 @@
       "category": "Extensions",
       "url": "https://github.com/Alemiz112/netbird-connect",
       "badge": "endorsed"
+    },
+    {
+      "id": "luci-app-netbird",
+      "name": "luci-app-netbird",
+      "description": "A LuCI web UI for managing the NetBird client on OpenWrt / ImmortalWrt routers, with one-click firewall zone and LAN-to-mesh forwarding setup.",
+      "author": "looong-cat",
+      "category": "Extensions",
+      "url": "https://github.com/looong-cat/luci-app-netbird"
     },
     {
       "id": "netbird-for-talos",
