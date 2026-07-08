@@ -4,11 +4,11 @@
 
 This repository is the source of truth for the community directory on [netbird.io](https://netbird.io). Each entry lives in its own file under [`data/`](data/); the site reads from this repository, so adding an entry here adds it to the website. To submit one, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
-**32 projects** · **12 pieces of content**
+**33 projects** · **12 pieces of content**
 
 ## Contents
 
-- [Projects](#projects) (32)
+- [Projects](#projects) (33)
 - [Content](#content) (12)
 
 ## Projects
@@ -28,6 +28,7 @@ _Run or deploy NetBird somewhere — images, clients, and devices._
 - **[JetBird](https://codeberg.org/bg443/JetBird)** — An unofficial, privacy-focused native Android client for NetBird, adding split tunneling, per-app exclusion, and Rosenpass support. Available on F-Droid. _by bg443_
 - **[mavlink-anywhere](https://github.com/alireza787b/mavlink-anywhere)** — A companion-computer routing dashboard for drone MAVLink telemetry that uses NetBird for secure remote access to ground stations and operators. _by alireza787b_
 - **[nanoNetBird](https://github.com/bc547/nanoNetBird)** — Brings the NetBird client to nanoKVM out-of-band management devices, with a single-command install that auto-updates. _by bc547_
+- **[NetBird Dockhand Templates](https://github.com/shaban00/netbird-dockhand)** — Dockhand stack templates for one-click deployment of a self-hosted NetBird control plane: combined server (management, signal, relay, STUN, embedded Dex IdP), dashboard, Postgres, NetBird reverse proxy, CrowdSec, and Caddy with TLS passthrough. Includes a client stack template. _by shaban00_
 - **[NetBird on Arch (AUR)](https://aur.archlinux.org/packages/netbird)** — AUR package that builds and installs the NetBird client from source on Arch Linux, with a prebuilt netbird-bin variant also available. _by tarball_
 
 ### Extensions
