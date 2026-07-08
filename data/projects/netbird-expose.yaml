@@ -1,0 +1,9 @@
+name: NetBird Expose Runner
+description: >-
+  A GitHub Action that builds a project's Docker service on the workflow
+  runner and exposes it through the NetBird reverse proxy with automatic TLS
+  and optional auth, holds it live for a configurable duration, then tears
+  down the ephemeral peer.
+author: shaban00
+category: Extensions
+url: https://github.com/shaban00/netbird-expose
