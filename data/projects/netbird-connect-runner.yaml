@@ -1,0 +1,8 @@
+name: NetBird Connect Runner
+description: >-
+  A GitHub Action that joins a workflow runner to your NetBird network as an
+  ephemeral peer, so CI/CD jobs can reach private resources like internal
+  services, databases, and jump hosts over WireGuard.
+author: shaban00
+category: Extensions
+url: https://github.com/shaban00/netbird-connect
