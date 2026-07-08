@@ -1,0 +1,9 @@
+name: NetBird Dockhand Templates
+description: >-
+  Dockhand stack templates for one-click deployment of a self-hosted NetBird
+  control plane: combined server (management, signal, relay, STUN, embedded
+  Dex IdP), dashboard, Postgres, NetBird reverse proxy, CrowdSec, and Caddy
+  with TLS passthrough. Includes a client stack template.
+author: shaban00
+category: Apps
+url: https://github.com/shaban00/netbird-dockhand
