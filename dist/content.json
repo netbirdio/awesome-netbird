@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "count": 12,
+  "count": 13,
   "content": [
     {
       "id": "jasons-lab-netbird-pihole-dns",
@@ -60,6 +60,16 @@
       "url": "https://www.youtube.com/watch?v=7ikzAnjk6YM",
       "thumbnail": "https://img.youtube.com/vi/7ikzAnjk6YM/maxresdefault.jpg",
       "publish_date": "2026-06-19",
+      "featured": false
+    },
+    {
+      "id": "it-ion-netbird-port-forwarding",
+      "type": "video",
+      "title": "Schluss mit Port-Forwarding! NetBird macht Selfhosting sicherer",
+      "source": "Daniel Klozbücher / IT-ION GmbH",
+      "url": "https://www.youtube.com/watch?v=B77znhDBw2w",
+      "thumbnail": "https://img.youtube.com/vi/B77znhDBw2w/maxresdefault.jpg",
+      "publish_date": "2026-06-03",
       "featured": false
     },
     {

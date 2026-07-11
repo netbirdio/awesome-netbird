@@ -4,12 +4,12 @@
 
 This repository is the source of truth for the community directory on [netbird.io](https://netbird.io). Each entry lives in its own file under [`data/`](data/); the site reads from this repository, so adding an entry here adds it to the website. To submit one, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
-**33 projects** · **12 pieces of content**
+**33 projects** · **13 pieces of content**
 
 ## Contents
 
 - [Projects](#projects) (33)
-- [Content](#content) (12)
+- [Content](#content) (13)
 
 ## Projects
 
@@ -81,6 +81,7 @@ _Community videos, articles, and posts about NetBird. ⭐ marks featured items._
 - **[NetBird vs Tailscale: The One I’d Trust With My #homelab](https://www.youtube.com/watch?v=jnGsStleHd0)** — _by 45HomeLab_
 - **[NetBird: The Easy-to-Use Open-Source WireGuard Overlay VPN You Can Self-Host](https://www.youtube.com/watch?v=Kwrff6h0rEw)** — _by Lawrence Systems_
 - **[REAL Self-Hosted Remote Access for YOUR Home Server](https://www.youtube.com/watch?v=z0HPuNFkmt4)** — _by TechHut_
+- **[Schluss mit Port-Forwarding! NetBird macht Selfhosting sicherer](https://www.youtube.com/watch?v=B77znhDBw2w)** — _by Daniel Klozbücher / IT-ION GmbH_
 - **[The EASIEST Unattended Remote Desktop for GNOME/Wayland.](https://www.youtube.com/watch?v=7ikzAnjk6YM)** — _by Cameron Knauff_
 - **[This Underrated Tool Replaced 3 Homelab Services (and it's open source!)](https://www.youtube.com/watch?v=3wJ0IQ3rHjA)** — _by DevOps Toolbox_
 
