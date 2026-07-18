@@ -1,0 +1,7 @@
+name: netbird-tui
+description: >-
+  A terminal UI for the local NetBird daemon that uses the daemon gRPC socket
+  for keyboard-driven monitoring and management of peers, routes, DNS, and more.
+author: n0pashkov
+category: Interfaces
+url: https://github.com/n0pashkov/netbird-tui
