@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "count": 13,
+  "count": 17,
   "content": [
     {
-      "id": "jasons-lab-netbird-pihole-dns",
-      "type": "video",
-      "title": "NetBird VPN & Pi-Hole DNS Setup",
-      "source": "Jason's Lab",
-      "url": "https://www.youtube.com/watch?v=4tuK8A4_gV4",
-      "thumbnail": "https://img.youtube.com/vi/4tuK8A4_gV4/maxresdefault.jpg",
-      "publish_date": "2026-05-12",
+      "id": "xda-home-lab-stack-netbird-migration",
+      "type": "article",
+      "title": "I migrated my entire home lab network stack to NetBird because it does the one thing Tailscale can't match",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/i-migrated-my-entire-home-lab-stack-to-netbird-because-it-does-one-thing-tailscale-cant-match/",
+      "thumbnail": "https://raw.githubusercontent.com/netbirdio/awesome-netbird/main/data/content/thumbnails/xda-home-lab-stack-netbird-migration.jpg",
+      "publish_date": "2026-07-18",
       "featured": true
     },
     {
@@ -31,6 +31,36 @@
       "thumbnail": "https://raw.githubusercontent.com/netbirdio/awesome-netbird/main/data/content/thumbnails/konstfish-netbird-reverse-proxy-kubernetes.jpg",
       "publish_date": "2026-02-18",
       "featured": true
+    },
+    {
+      "id": "blazetrends-netbird-tailscale-layer4-reverse-proxy",
+      "type": "article",
+      "title": "NetBird vs Tailscale: Why the Layer 4 Reverse Proxy is Forcing Home Labs to Migrate",
+      "source": "Blaze Trends",
+      "url": "https://blazetrends.com/netbird-vs-tailscale-why-the-layer-4-reverse-proxy-is-forcing-home-labs-to-migrate/",
+      "thumbnail": "https://raw.githubusercontent.com/netbirdio/awesome-netbird/main/data/content/thumbnails/blazetrends-netbird-tailscale-layer4-reverse-proxy.webp",
+      "publish_date": "2026-07-18",
+      "featured": false
+    },
+    {
+      "id": "techdigestor-lightweight-tailscale-alternatives",
+      "type": "article",
+      "title": "5 Lightweight Tailscale Alternatives Worth Running on Your Own Hardware",
+      "source": "techdigestor",
+      "url": "https://techdigestor.com/5-lightweight-tailscale-alternatives-worth-running-on-your-own-hardware/",
+      "thumbnail": "https://raw.githubusercontent.com/netbirdio/awesome-netbird/main/data/content/thumbnails/techdigestor-lightweight-tailscale-alternatives.jpg",
+      "publish_date": "2026-07-17",
+      "featured": false
+    },
+    {
+      "id": "engineering-with-morris-netbird-vpn-kubernetes",
+      "type": "video",
+      "title": "Netbird VPN access for Kubernetes",
+      "source": "Engineering with Morris",
+      "url": "https://www.youtube.com/watch?v=hygaBdCRj18",
+      "thumbnail": "https://img.youtube.com/vi/hygaBdCRj18/maxresdefault.jpg",
+      "publish_date": "2026-07-15",
+      "featured": false
     },
     {
       "id": "philip-thomas-nas-mini-server-n8n",
@@ -70,6 +100,16 @@
       "url": "https://www.youtube.com/watch?v=B77znhDBw2w",
       "thumbnail": "https://img.youtube.com/vi/B77znhDBw2w/maxresdefault.jpg",
       "publish_date": "2026-06-03",
+      "featured": false
+    },
+    {
+      "id": "jasons-lab-netbird-pihole-dns",
+      "type": "video",
+      "title": "NetBird VPN & Pi-Hole DNS Setup",
+      "source": "Jason's Lab",
+      "url": "https://www.youtube.com/watch?v=4tuK8A4_gV4",
+      "thumbnail": "https://img.youtube.com/vi/4tuK8A4_gV4/maxresdefault.jpg",
+      "publish_date": "2026-05-12",
       "featured": false
     },
     {
