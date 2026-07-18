@@ -1,0 +1,9 @@
+name: NetBird VPN for Decky Loader
+description: >-
+  A Decky Loader plugin to manage NetBird VPN directly from the Steam Deck
+  Quick Access Menu. Authenticate via SSO/QR, manage peers,
+  network resources, port exposure, forwarding rules, and profiles. All
+  from the gaming-mode UI.
+author: MentallyOverwhelmed
+category: Extensions
+url: https://github.com/MentallyOverwhelmed/decky-netbird
