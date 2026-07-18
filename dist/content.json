@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "count": 17,
+  "count": 18,
   "content": [
     {
       "id": "xda-home-lab-stack-netbird-migration",
@@ -161,6 +161,15 @@
       "thumbnail": "https://img.youtube.com/vi/jnGsStleHd0/maxresdefault.jpg",
       "publish_date": "2026-01-08",
       "featured": false
+    },
+    {
+      "id": "serversathome-best-vpn-ever",
+      "type": "article",
+      "title": "Best.VPN.Ever.",
+      "source": "ServersatHome",
+      "url": "https://blog.serversatho.me/best-vpn-ever/",
+      "thumbnail": "https://raw.githubusercontent.com/netbirdio/awesome-netbird/main/data/content/thumbnails/serversathome-best-vpn-ever.png",
+      "publish_date": "2025-04-12"
     },
     {
       "id": "lawrence-systems-netbird-overlay-vpn",
