@@ -1,0 +1,7 @@
+name: NetBird HomeAssistant integration
+description: >-
+  Home Assistant integration that monitors your NetBird network: peers,
+  legacy routes and network resources (with their routers).
+author: jose1711
+category: Extensions
+url: https://github.com/jose1711/netbird-ha/
