@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "count": 35,
+  "count": 36,
   "projects": [
     {
       "id": "home-assistant-addon",
@@ -189,6 +189,14 @@
       "author": "Sidero Labs",
       "category": "Extensions",
       "url": "https://github.com/siderolabs/extensions/tree/main/network/netbird"
+    },
+    {
+      "id": "netbird-ha",
+      "name": "NetBird HomeAssistant integration",
+      "description": "Home Assistant integration that monitors your NetBird network: peers, legacy routes and network resources (with their routers).",
+      "author": "jose1711",
+      "category": "Extensions",
+      "url": "https://github.com/jose1711/netbird-ha/"
     },
     {
       "id": "decky-netbird",

@@ -4,11 +4,11 @@
 
 This repository is the source of truth for the community directory on [netbird.io](https://netbird.io). Each entry lives in its own file under [`data/`](data/); the site reads from this repository, so adding an entry here adds it to the website. To submit one, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
-**35 projects** · **18 pieces of content**
+**36 projects** · **18 pieces of content**
 
 ## Contents
 
-- [Projects](#projects) (35)
+- [Projects](#projects) (36)
 - [Content](#content) (18)
 
 ## Projects
@@ -46,6 +46,7 @@ _Plug NetBird into another tool or platform._
 - **[NetBird Connect Runner](https://github.com/shaban00/netbird-connect)** — A GitHub Action that joins a workflow runner to your NetBird network as an ephemeral peer, so CI/CD jobs can reach private resources like internal services, databases, and jump hosts over WireGuard. _by shaban00_
 - **[NetBird Expose Runner](https://github.com/shaban00/netbird-expose)** — A GitHub Action that builds a project's Docker service on the workflow runner and exposes it through the NetBird reverse proxy with automatic TLS and optional auth, holds it live for a configurable duration, then tears down the ephemeral peer. _by shaban00_
 - **[NetBird for Talos Linux](https://github.com/siderolabs/extensions/tree/main/network/netbird)** — Talos Linux system extension that runs the NetBird client on Talos nodes, giving machines on your NetBird network secure access to your Talos Kubernetes nodes. _by Sidero Labs_
+- **[NetBird HomeAssistant integration](https://github.com/jose1711/netbird-ha/)** — Home Assistant integration that monitors your NetBird network: peers, legacy routes and network resources (with their routers). _by jose1711_
 - **[NetBird VPN for Decky Loader](https://github.com/MentallyOverwhelmed/decky-netbird)** — A Decky Loader plugin to manage NetBird VPN directly from the Steam Deck Quick Access Menu. Authenticate via SSO/QR, manage peers, network resources, port exposure, forwarding rules, and profiles. All from the gaming-mode UI. _by MentallyOverwhelmed_
 - **[netbird-traefik](https://github.com/yblis/netbird-traefik)** — Run NetBird behind a Traefik reverse proxy using Traefik labels, without changing your existing stack. _by yblis_
 - **[NetDesk](https://github.com/yblis/NetDesk)** — A Chrome extension that adds one-click RustDesk remote access (desktop, terminal, file transfer) right inside the NetBird dashboard. _by yblis_
