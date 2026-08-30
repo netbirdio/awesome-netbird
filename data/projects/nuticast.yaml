@@ -1,0 +1,8 @@
+name: Nuticast
+description: >-
+  Mac menu-bar app that keeps Xcode wireless debugging working when an
+  iPhone leaves the local network, by bridging Apple's device discovery
+  over a NetBird network.
+author: webwarrior06
+category: Extensions
+url: https://nuticast.com
