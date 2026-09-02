@@ -4,11 +4,11 @@
 
 This repository is the source of truth for the community directory on [netbird.io](https://netbird.io). Each entry lives in its own file under [`data/`](data/); the site reads from this repository, so adding an entry here adds it to the website. To submit one, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
-**36 projects** · **18 pieces of content**
+**37 projects** · **18 pieces of content**
 
 ## Contents
 
-- [Projects](#projects) (36)
+- [Projects](#projects) (37)
 - [Content](#content) (18)
 
 ## Projects
@@ -50,6 +50,7 @@ _Plug NetBird into another tool or platform._
 - **[NetBird VPN for Decky Loader](https://github.com/MentallyOverwhelmed/decky-netbird)** — A Decky Loader plugin to manage NetBird VPN directly from the Steam Deck Quick Access Menu. Authenticate via SSO/QR, manage peers, network resources, port exposure, forwarding rules, and profiles. All from the gaming-mode UI. _by MentallyOverwhelmed_
 - **[netbird-traefik](https://github.com/yblis/netbird-traefik)** — Run NetBird behind a Traefik reverse proxy using Traefik labels, without changing your existing stack. _by yblis_
 - **[NetDesk](https://github.com/yblis/NetDesk)** — A Chrome extension that adds one-click RustDesk remote access (desktop, terminal, file transfer) right inside the NetBird dashboard. _by yblis_
+- **[Netbird GitHub Action](https://github.com/ankurk91/netbird-action)** — A GitHub Action that installs the NetBird client on an Ubuntu runner and joins your network with a setup key, so the rest of the job can reach your private peers. It can also route the runner's traffic through an exit node. _by ankurk91_
 
 ### Interfaces
 
