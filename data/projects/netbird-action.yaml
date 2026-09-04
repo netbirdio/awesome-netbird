@@ -1,0 +1,8 @@
+name: NetBird GitHub Action
+description: >-
+  A GitHub Action that installs the NetBird client on an Ubuntu runner and joins your
+  network with a setup key, so the rest of the job can reach your private peers. It can
+  also route the runner's traffic through an exit node.
+author: ankurk91
+category: Extensions
+url: https://github.com/ankurk91/netbird-action
