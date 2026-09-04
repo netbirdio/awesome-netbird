@@ -1,4 +1,4 @@
-name: Netbird GitHub Action
+name: NetBird GitHub Action
 description: >-
   A GitHub Action that installs the NetBird client on an Ubuntu runner and joins your
   network with a setup key, so the rest of the job can reach your private peers. It can
