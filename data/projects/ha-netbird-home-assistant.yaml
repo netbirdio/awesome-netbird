@@ -1,0 +1,5 @@
+name: NetBird for Home Assistant
+description: Read-only Home Assistant integration for monitoring NetBird Cloud accounts, peers, Networks, resources, and routers with dynamic entity lifecycle and English and Ukrainian documentation.
+author: rodion981
+category: Extensions
+url: https://github.com/rodion981/ha-netbird
