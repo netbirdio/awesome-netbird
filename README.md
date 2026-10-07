@@ -4,11 +4,11 @@
 
 This repository is the source of truth for the community directory on [netbird.io](https://netbird.io). Each entry lives in its own file under [`data/`](data/); the site reads from this repository, so adding an entry here adds it to the website. To submit one, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
-**38 projects** · **18 pieces of content**
+**39 projects** · **18 pieces of content**
 
 ## Contents
 
-- [Projects](#projects) (38)
+- [Projects](#projects) (39)
 - [Content](#content) (18)
 
 ## Projects
@@ -24,6 +24,7 @@ _Run or deploy NetBird somewhere — images, clients, and devices._
 - **[NetBird for NixOS](https://github.com/NixOS/nixpkgs/tree/master/pkgs/by-name/ne/netbird)** `⭐ Endorsed` — NetBird client package and services.netbird module in nixpkgs for declaratively installing and configuring the NetBird client on NixOS. _by nixpkgs maintainers_
 - **[NetBird Proxmox LXC](https://community-scripts.org/scripts/add-netbird-lxc?id=add-netbird-lxc)** `⭐ Endorsed` — Community helper script that creates a Proxmox VE LXC container running the NetBird client, set up as a routing peer to bridge your Proxmox network into your NetBird network. _by Community Scripts_
 - **[NetBird Snap](https://github.com/ubuntu-robotics/netbird_snap)** `⭐ Endorsed` — Snap package of the NetBird client for Linux, letting you install and run NetBird on Ubuntu and other snapd-compatible distributions via the Snap Store. _by Ubuntu Robotics_
+- **[BirdSocks](https://github.com/bropines/birdsocks)** — An unofficial Android client that runs the NetBird daemon as a userspace node. Apps reach the network through a local SOCKS5 proxy that can run alongside another VPN or ad-blocker, a DNS proxy, or an optional VPN mode. _by bropines_
 - **[docker-netbird](https://github.com/11notes/docker-netbird)** — A rootless, distroless Docker image that packages the NetBird management server, dashboard, and signal server into one lightweight container. _by 11notes_
 - **[JetBird](https://codeberg.org/bg443/JetBird)** — An unofficial, privacy-focused native Android client for NetBird, adding split tunneling, per-app exclusion, and Rosenpass support. Available on F-Droid. _by bg443_
 - **[mavlink-anywhere](https://github.com/alireza787b/mavlink-anywhere)** — A companion-computer routing dashboard for drone MAVLink telemetry that uses NetBird for secure remote access to ground stations and operators. _by alireza787b_
