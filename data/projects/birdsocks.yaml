@@ -1,0 +1,8 @@
+name: BirdSocks
+description: >-
+  An unofficial Android client that runs the NetBird daemon as a userspace node.
+  Apps reach the network through a local SOCKS5 proxy that can run alongside
+  another VPN or ad-blocker, a DNS proxy, or an optional VPN mode.
+author: bropines
+category: Apps
+url: https://github.com/bropines/birdsocks
