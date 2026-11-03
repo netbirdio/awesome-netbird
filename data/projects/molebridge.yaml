@@ -1,0 +1,8 @@
+name: Molebridge
+description: >-
+  A self-hosted NetBird exit node that sends your peers' internet traffic out through
+  Mullvad, PIA or NordVPN, or through gluetun for four more providers, with routing that
+  fails closed. A small web panel switches servers. Experimental.
+author: irashack
+category: Apps
+url: https://github.com/irashack/molebridge
