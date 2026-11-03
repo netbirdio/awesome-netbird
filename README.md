@@ -4,12 +4,12 @@
 
 This repository is the source of truth for the community directory on [netbird.io](https://netbird.io). Each entry lives in its own file under [`data/`](data/); the site reads from this repository, so adding an entry here adds it to the website. To submit one, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
-**41 projects** · **18 pieces of content**
+**41 projects** · **19 pieces of content**
 
 ## Contents
 
 - [Projects](#projects) (41)
-- [Content](#content) (18)
+- [Content](#content) (19)
 
 ## Projects
 
@@ -101,6 +101,7 @@ _Community videos, articles, and posts about NetBird. ⭐ marks featured items._
 - **[5 Lightweight Tailscale Alternatives Worth Running on Your Own Hardware](https://techdigestor.com/5-lightweight-tailscale-alternatives-worth-running-on-your-own-hardware/)** — _by techdigestor_
 - **[Best.VPN.Ever.](https://blog.serversatho.me/best-vpn-ever/)** — _by ServersatHome_
 - **[I was exposing my home server every time I opened a router port — NetBird fixed it](https://www.makeuseof.com/was-exposing-home-server-every-time-opened-router-port-netbird-fixed/)** — _by MakeUseOf_
+- **[NetBird : un VPN mesh open source et auto-hébergé pour accéder à son réseau à distance](https://www.it-connect.fr/tuto-netbird-vpn-maille-auto-heberge/)** — _by Florian Burnel / IT-Connect_
 - **[NetBird VPN homelab: ho sostituito Tailscale in 12 minuti e 3 subnet](https://homelabz.cc/blog/netbird-vpn-homelab-tailscale-migrazione)** — _by Antonio Distefano_
 - **[NetBird vs Tailscale: Why the Layer 4 Reverse Proxy is Forcing Home Labs to Migrate](https://blazetrends.com/netbird-vs-tailscale-why-the-layer-4-reverse-proxy-is-forcing-home-labs-to-migrate/)** — _by Blaze Trends_
 

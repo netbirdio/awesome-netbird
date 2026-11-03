@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "count": 18,
+  "count": 19,
   "content": [
     {
       "id": "xda-home-lab-stack-netbird-migration",
@@ -31,6 +31,15 @@
       "thumbnail": "https://raw.githubusercontent.com/netbirdio/awesome-netbird/main/data/content/thumbnails/konstfish-netbird-reverse-proxy-kubernetes.jpg",
       "publish_date": "2026-02-18",
       "featured": true
+    },
+    {
+      "id": "it-connect-netbird-self-hosted-guide",
+      "type": "article",
+      "title": "NetBird : un VPN mesh open source et auto-hébergé pour accéder à son réseau à distance",
+      "source": "Florian Burnel / IT-Connect",
+      "url": "https://www.it-connect.fr/tuto-netbird-vpn-maille-auto-heberge/",
+      "thumbnail": "https://raw.githubusercontent.com/netbirdio/awesome-netbird/main/data/content/thumbnails/it-connect-netbird-self-hosted-guide.jpg",
+      "publish_date": "2026-11-02"
     },
     {
       "id": "blazetrends-netbird-tailscale-layer4-reverse-proxy",
