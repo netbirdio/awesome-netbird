@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "count": 41,
+  "count": 42,
   "projects": [
     {
       "id": "home-assistant-addon",
@@ -70,6 +70,14 @@
       "author": "bg443",
       "category": "Apps",
       "url": "https://codeberg.org/bg443/JetBird"
+    },
+    {
+      "id": "magisk-netbird",
+      "name": "Magisk NetBird",
+      "description": "A Magisk module that packages the NetBird client for Android devices, with binaries for arm64-v8a, armeabi-v7a, and x86_64. It includes service controls and a KernelSU WebUI for managing the client.",
+      "author": "ahsaboy",
+      "category": "Apps",
+      "url": "https://github.com/ahsaboy/magisk-netbird"
     },
     {
       "id": "mavlink-anywhere",

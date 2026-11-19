@@ -4,11 +4,11 @@
 
 This repository is the source of truth for the community directory on [netbird.io](https://netbird.io). Each entry lives in its own file under [`data/`](data/); the site reads from this repository, so adding an entry here adds it to the website. To submit one, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
-**41 projects** · **19 pieces of content**
+**42 projects** · **19 pieces of content**
 
 ## Contents
 
-- [Projects](#projects) (41)
+- [Projects](#projects) (42)
 - [Content](#content) (19)
 
 ## Projects
@@ -27,6 +27,7 @@ _Run or deploy NetBird somewhere — images, clients, and devices._
 - **[BirdSocks](https://github.com/bropines/birdsocks)** — An unofficial Android client that runs the NetBird daemon as a userspace node. Apps reach the network through a local SOCKS5 proxy that can run alongside another VPN or ad-blocker, a DNS proxy, or an optional VPN mode. _by bropines_
 - **[docker-netbird](https://github.com/11notes/docker-netbird)** — A rootless, distroless Docker image that packages the NetBird management server, dashboard, and signal server into one lightweight container. _by 11notes_
 - **[JetBird](https://codeberg.org/bg443/JetBird)** — An unofficial, privacy-focused native Android client for NetBird, adding split tunneling, per-app exclusion, and Rosenpass support. Available on F-Droid. _by bg443_
+- **[Magisk NetBird](https://github.com/ahsaboy/magisk-netbird)** — A Magisk module that packages the NetBird client for Android devices, with binaries for arm64-v8a, armeabi-v7a, and x86_64. It includes service controls and a KernelSU WebUI for managing the client. _by ahsaboy_
 - **[mavlink-anywhere](https://github.com/alireza787b/mavlink-anywhere)** — A companion-computer routing dashboard for drone MAVLink telemetry that uses NetBird for secure remote access to ground stations and operators. _by alireza787b_
 - **[Molebridge](https://github.com/irashack/molebridge)** — A self-hosted NetBird exit node that sends your peers' internet traffic out through Mullvad, PIA or NordVPN, or through gluetun for four more providers, with routing that fails closed. A small web panel switches servers. Experimental. _by irashack_
 - **[nanoNetBird](https://github.com/bc547/nanoNetBird)** — Brings the NetBird client to nanoKVM out-of-band management devices, with a single-command install that auto-updates. _by bc547_
