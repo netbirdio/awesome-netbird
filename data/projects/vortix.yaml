@@ -1,0 +1,8 @@
+name: Vortix
+description: >-
+  A terminal UI for macOS and Linux that runs NetBird alongside your own
+  WireGuard and OpenVPN tunnels, with live traffic stats, DNS and IPv6 leak
+  checks, and a kill switch.
+author: Harry-kp
+category: Interfaces
+url: https://github.com/Harry-kp/vortix
