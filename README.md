@@ -4,11 +4,11 @@
 
 This repository is the source of truth for the community directory on [netbird.io](https://netbird.io). Each entry lives in its own file under [`data/`](data/); the site reads from this repository, so adding an entry here adds it to the website. To submit one, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
-**42 projects** · **19 pieces of content**
+**43 projects** · **19 pieces of content**
 
 ## Contents
 
-- [Projects](#projects) (42)
+- [Projects](#projects) (43)
 - [Content](#content) (19)
 
 ## Projects
@@ -63,6 +63,7 @@ _View or drive NetBird — CLIs, dashboards, and exporters._
 
 - **[netbird-exporter](https://github.com/gocloudio/netbird-exporter)** — A Prometheus exporter that surfaces NetBird peer connection status, latency, and traffic metrics for your dashboards. _by gocloudio_
 - **[netbird-tui](https://github.com/n0pashkov/netbird-tui)** — A terminal UI for the local NetBird daemon that uses the daemon gRPC socket for keyboard-driven monitoring and management of peers, routes, DNS, and more. _by n0pashkov_
+- **[Vortix](https://github.com/Harry-kp/vortix)** — A terminal UI for macOS and Linux that runs NetBird alongside your own WireGuard and OpenVPN tunnels, with live traffic stats, DNS and IPv6 leak checks, and a kill switch. _by Harry-kp_
 
 ### Tools
 

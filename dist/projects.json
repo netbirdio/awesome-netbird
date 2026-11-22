@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "count": 42,
+  "count": 43,
   "projects": [
     {
       "id": "home-assistant-addon",
@@ -285,6 +285,14 @@
       "author": "n0pashkov",
       "category": "Interfaces",
       "url": "https://github.com/n0pashkov/netbird-tui"
+    },
+    {
+      "id": "vortix",
+      "name": "Vortix",
+      "description": "A terminal UI for macOS and Linux that runs NetBird alongside your own WireGuard and OpenVPN tunnels, with live traffic stats, DNS and IPv6 leak checks, and a kill switch.",
+      "author": "Harry-kp",
+      "category": "Interfaces",
+      "url": "https://github.com/Harry-kp/vortix"
     },
     {
       "id": "crossplane-provider",
