@@ -1,0 +1,9 @@
+name: pingaling
+description: >-
+  iPhone and iPad app that maps NetBird peers and exit nodes and checks them
+  every 5 minutes from a watcher in your own Cloudflare account. Reads NetBird
+  Cloud or a self-hosted server through a read-only Auditor service user.
+  Closed source; free, with a one-time paid upgrade for alerts.
+author: Three Lucky Stars
+category: Interfaces
+url: https://www.threeluckystars.com/pingaling
